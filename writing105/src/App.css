@@ -1,4 +1,124 @@
-#root {
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: #2f2f62;
+  display: flex;
+  justify-content: center;
+  place-items: start;
+  /* background image */
+  /* background-image: url("./assets/62025.jpg");
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align content to the top */
+  height: 100vh; /* Set the container to full viewport height */
+}
+
+.app-wrapper {
+  margin-top: 15%;
+  /* background-color: aqua; */
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #1a1a40;
+  /* padding: 2rem; */
+  border-radius: 10px;
+  margin-top: 1rem; /* Adjust the margin as needed */
+  min-width: 500px; /* Adjust the width as needed */
+  padding: 1rem;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.todo-input {
+  outline: none;
+  /* background: none;
+   */
+  background: #1a1a40;
+  /* border: 1px solid #8758ff;
+   */
+  border-radius: 5px;
+  border: 0.5px solid #8758ff;
+  padding: 0.8rem 1.2rem;
+  width: 70%;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #8758ff;
+  color: #fff;
+  /* border: none; */
+  border-radius: 5px;
+  border: 0.5px solid #8758ff;
+  padding: 0.55rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +159,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
