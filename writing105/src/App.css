@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
 
 * {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Montserrat Alternates', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
-  background: #2f2f62;
+  background: #f0f0f0;
   display: flex;
   justify-content: center;
   place-items: start;
@@ -35,18 +36,20 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color: #170349;
   margin-bottom: 0.5rem;
   font-size: 1.75rem;
 }
 
 .TodoWrapper {
-  background: #1a1a40;
+  /* background: #1a1a40; */
   /* padding: 2rem; */
   border-radius: 10px;
   margin-top: 1rem; /* Adjust the margin as needed */
   min-width: 500px; /* Adjust the width as needed */
   padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #888888;
 }
 
 .TodoForm {
@@ -55,33 +58,33 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .todo-input {
   outline: none;
   /* background: none;
    */
-  background: #1a1a40;
+  background: #ffffff;
   /* border: 1px solid #8758ff;
    */
   border-radius: 5px;
-  border: 0.5px solid #8758ff;
+  border: 0.5px solid #2b9501;
   padding: 0.8rem 1.2rem;
   width: 70%;
-  color: #fff;
+  color: #170349;
 }
 
+
 .todo-input::placeholder {
-  color: #ffffff4d;
+  color:#9e9ba5;
 }
 
 .todo-btn {
-  background: #8758ff;
+  background: #0c0d0d;
   color: #fff;
   /* border: none; */
   border-radius: 5px;
-  border: 0.5px solid #8758ff;
+  border: 0.5px solid #000000;
   padding: 0.55rem;
   margin-left: 0.5rem;
   cursor: pointer;
@@ -91,7 +94,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #8758ff;
+  background: #33a208;
   color: #fff;
   padding: 0.75rem 1rem;
   border-radius: 5px;
